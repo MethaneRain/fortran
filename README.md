@@ -14,7 +14,7 @@ First thing I realized was I was probably a little over my head on the installat
 
 I had gcc and gfortan installed a while back. However, when trying to compile a simple ```f90``` I immediately ran into a plethora of errors. 
 
-After tracking down what the errors where, I realized that I was using the Macports versionof gcc and gfortran which was 5.5.0. So the next step was to get the most updated versions, and instead of using Macports, I went with Homebrew. 
+After tracking down what the errors where, I realized that I was using the Macports version of gcc and gfortran which was 5.5.0. So the next step was to get the most updated versions, and instead of using Macports, I went with Homebrew. 
 
 ```brew install gcc```
 
@@ -27,7 +27,7 @@ atom ~/.bash_profile
 
 The Macports PATH was: ```"/opt/local/bin:/opt/local/sbin:$PATH"```
 
-Exploring the gcc PATH for the Homebrew gave: ```usr/local/Cellar/``` So all that needed to be down to have the gcc point to the Homebrew's version would be to add a PATH that points to it.
+Exploring the gcc PATH for the Homebrew gave: ```usr/local/Cellar/``` So all that needed to be done to have the gcc point to the Homebrew's version would be to add a PATH that points to it.
 
 In the ```.bash_profile``` I added:
 ```PATH=/usr/local/Cellar/gcc/9.3.0/bin:$PATH```
