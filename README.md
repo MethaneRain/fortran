@@ -10,7 +10,7 @@ This was an interesting program to setup on my own and I'll try my best to docum
 
 I set Fortran up on a Mac running Mojave 10.14.6
 
-## So many compiler errors....
+### So many compiler errors....
 
 First thing I realized was I was probably a little over my head on the installation but I was able to power through with the help of merciless Google research and forum searching like Stack Overflow, etc.
 
@@ -35,3 +35,21 @@ In the ```.bash_profile``` I added:
 ```PATH=/usr/local/Cellar/gcc/9.3.0/bin:$PATH```
 
 And now all is good and I can successfully compile my first Fortran script!
+
+---
+
+## Compiling Fortran Programs
+
+Similar to Java, the Fortran files must be compiled to an executable ```.exe``` or ```.out``` and then run.
+
+A simple example is below will create ```a.out``` by default onUnix and ```a.exe``` on Windows.
+
+```shell
+$ gfrotran example.f90
+```
+
+Or if you want to name your executable, run the flag ```-o```
+
+```shell
+$ gfrotran example.f90 -o example.out
+```
