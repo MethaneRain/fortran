@@ -4,7 +4,6 @@ Working with Fortran Programming Language]
 https://gcc.gnu.org/wiki/GFortranGettingStarted
 
 ## Installation and Set up
----
 
 This was an interesting program to setup on my own and I'll try my best to document it here. 
 
@@ -29,9 +28,9 @@ atom ~/.bash_profile
 
 The Macports PATH was: ```"/opt/local/bin:/opt/local/sbin:$PATH"```
 
-Exploring the gcc PATH for the Homebrew gave: ```usr/local/Cellar/``` So all that needed to be done to have the gcc point to the Homebrew's version would be to add a PATH that points to it.
+Exploring the gcc PATH for the Homebrew gave: ```usr/local/Cellar/``` So all that needed to be done to have the gcc point to the Homebrew's version would be to add a PATH that points to it in the ```.bash_profile``` file.
 
-In the ```.bash_profile``` I added:
+In ```.bash_profile``` I added:
 ```PATH=/usr/local/Cellar/gcc/9.3.0/bin:$PATH```
 
 And now all is good and I can successfully compile my first Fortran script!
@@ -40,24 +39,25 @@ And now all is good and I can successfully compile my first Fortran script!
 
 ## Compiling Fortran Programs
 
-Similar to Java, the Fortran files must be compiled to an executable ```.exe``` or ```.out``` and then run.
+Similar to Java, the Fortran files must be compiled to an executable and then run.
 
-A simple example is below will create ```a.out``` by default onUnix and ```a.exe``` on Windows.
+A simple example is below will create ```a.out``` by default on Unix and ```a.exe``` on Windows:
 
 ```shell
 $ gfrotran example.f90
 ```
 
-Or if you want to name your executable, run the flag ```-o```
+Or if you want to name your executable, run the flag ```-o``` after the file and then followed by what you want to callit:
 
 ```shell
 $ gfrotran example.f90 -o example.out
 ```
 
-Now that you have a executable file, it just needs to be run as one:
+Now that you have a executable file, it just needs to be run as one: (the path to the file needs to be used then the executable)
+* If the Fortran file is in your current working directory, a simple ```./``` just needs to be used with the executbale.
 
 ```shell
-$ ./example.out
+$ ./example.out.
 ```
 
 And that's it!
