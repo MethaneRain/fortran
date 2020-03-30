@@ -53,3 +53,11 @@ Or if you want to name your executable, run the flag ```-o```
 ```shell
 $ gfrotran example.f90 -o example.out
 ```
+
+Now that you have a executable file, it just needs to be run as one:
+
+```shell
+$ ./example.out
+```
+
+And that's it!
