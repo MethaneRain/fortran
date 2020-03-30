@@ -61,3 +61,19 @@ $ ./example.out.
 ```
 
 And that's it!
+
+---
+
+## Arrays
+
+To declare an array the attribute ```DIMENSION``` is used. Then calling the index to assign a value ```array_name(index_num)=value```.
+Unlike some languages, Fortran is a 1st index language, so the first indicie will need to be 1 and not 0.
+
+```fortran
+INTEGER, DIMENSION(8) :: vert_press_levels
+vert_press_levels(1)=1000
+.
+.
+.
+vert_press_levels(8)=250
+```
