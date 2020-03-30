@@ -47,7 +47,7 @@ A simple example is below will create ```a.out``` by default on Unix and ```a.ex
 $ gfrotran example.f90
 ```
 
-Or if you want to name your executable, run the flag ```-o``` after the file and then followed by what you want to callit:
+Or if you want to name your executable, run the flag ```-o``` after the file and then followed by what you want to call it:
 
 ```shell
 $ gfrotran example.f90 -o example.out
@@ -79,3 +79,14 @@ vert_press_levels(8)=250
 ```
 
 See the ```arrays.f90``` script for a quick example.
+
+Similar to Python, the array can be referenced by indicies by <strong>indiviudal element</strong>, <strong>entire array</strong>, or <strong>subset</strong>.
+
+<ol>
+    <li>Indiviudal Element:</li>
+        <ul>
+            array(1), array(-1), etc.
+        </ul>
+    <li></li>
+    <li></li>
+</ol>
