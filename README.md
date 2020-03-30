@@ -77,3 +77,5 @@ vert_press_levels(1)=1000
 .
 vert_press_levels(8)=250
 ```
+
+See the ```arrays.f90``` script for a quick example.
