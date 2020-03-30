@@ -9,5 +9,5 @@ program arrays
     vert_press_levels(6)=400
     vert_press_levels(7)=300
     vert_press_levels(8)=250
-    print *,"8th entry of pressur level array: ",vert_press_levels(8),"hPa"
+    print *,"8th entry of pressure level array: ",vert_press_levels(8),"hPa"
 end program arrays
