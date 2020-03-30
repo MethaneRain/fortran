@@ -93,6 +93,11 @@ Similar to Python, the array can be referenced by indicies by <strong>indiviudal
         </ul>
     <li>Subset:</li>
         <ul>
-            ```array(1:20)```, ```array(-20:-10)```, etc.
+            array(1:20), array(-20:-10), etc.
         </ul>
 </ol>
+
+---
+
+## tfuhg
+
