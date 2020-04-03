@@ -28,7 +28,11 @@ atom ~/.bash_profile
 
 The Macports PATH was: ```"/opt/local/bin:/opt/local/sbin:$PATH"```
 
-Exploring the gcc PATH for the Homebrew gave: ```usr/local/Cellar/``` So all that needed to be done to have the gcc point to the Homebrew's version would be to add a PATH that points to it in the <strong>end</strong> of the ```.bash_profile``` file.
+Exploring the gcc PATH for the Homebrew gave: ```usr/local/Cellar/``` So all that needed to be done to have the gcc point to the Homebrew's version would be to add a PATH that points to it in the
+```shell
+end  
+```
+ of the ```.bash_profile``` file.
 
 In ```.bash_profile``` I added:
 ```PATH=/usr/local/Cellar/gcc/9.3.0/bin:$PATH```
