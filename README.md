@@ -105,6 +105,14 @@ Number of characters in variable name: 20
 Number of characters in trimmed variable name: 15
 ```
 
+Variable names (Identifiers) must follow certain rules:
+<ol>
+    <li>First character must be a letter</li>
+    <li>Must contain letter (a-z), numbers (0-9), or underscores</li>
+    <li>Length must be less then 31 characters long</li>
+</ol>
+
+* One interesting note is that unlike in other programming languages like Python, Fortran variable names are <strong><em>case insensitive!</strong></em>. Thus, identifiers like ```name```, ```Name```, ```nAmE```, etc are all equivalent!
 ---
 
 ## Fortran Program
