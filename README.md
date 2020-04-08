@@ -64,9 +64,15 @@ And that's it!
 
 ---
 
-## Basic Syntax (this will be covered more later)
+## Basic Syntax (this will be covered more throughout the exmaples)
 
 
+
+---
+
+## Fortran Program
+
+A Fortran program is made of a collection of <strong><em>main program</strong></em>, <strong><em>modules</strong></em>, and <strong><em>external subprograms/proceeddures</strong></em>
 
 ---
 
@@ -77,6 +83,8 @@ And that's it!
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
+
+---
 
 ## Arrays
 
