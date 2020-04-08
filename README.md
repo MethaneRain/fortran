@@ -1,5 +1,4 @@
-# fortran
-Working with Fortran Programming Language
+Working with Fortran Programming Language via ```gfortran``` Compiler
 
 https://gcc.gnu.org/wiki/GFortranGettingStarted
 
@@ -73,6 +72,10 @@ And that's it!
 ## Fortran Program
 
 A Fortran program is made of a collection of: <strong><em>main program</strong></em>, <strong><em>modules</strong></em>, and <strong><em>external subprograms/proceedures</strong></em>
+
+One of the first noticable quirks of Fortran is the way it handles variables that start with i, j, k, l, m, and n. By default Fortran will assign these variables to ```integers```, whil any variable name that starts with any other letter will be assigned to ```real```, or float (covered in data types later).
+
+To override this inherit behavior, at the very beginning of the program, the statement ```implicit none``` must be added to the script.
 
 ---
 
