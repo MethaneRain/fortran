@@ -83,6 +83,28 @@ b = 2.0
 c = a+b
 ```
 
+Stings need to be called by ```character``` and must be declared with the length. There are ways around this, but here is a basic example:
+
+```fortran
+character(len=20) :: name
+name  = "Albert Einstein"
+```
+The character length can be assigned larger than needed and trimmed to the actual length with ```trim()```:
+
+```fortran
+program string_example
+  implicit none
+  character(len=20) :: name
+  name  = "Albert Einstein"
+  print *,"Number of characters in variable name:",len(name)
+  print *,"Number of characters in trimmed variable name:",len(trim(name))
+end program string_example
+
+>>>
+Number of characters in variable name: 20
+Number of characters in trimmed variable name: 15
+```
+
 ---
 
 ## Fortran Program
