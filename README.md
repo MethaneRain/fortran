@@ -65,7 +65,23 @@ And that's it!
 
 ## Basic Syntax (this will be covered more throughout the exmaples)
 
+Similiar to Java, all variables must be declared before being assigned with a value. In Fortran this is done by declaring the data type, then two colons, then the name of the variable and optional value.
 
+```fortran
+integer :: a
+real :: b
+a = 3
+b = 15.0
+```
+
+Multiple variables can be declared at once as long as they are the same data type:
+
+```fortran
+real :: a,b,c
+a = 1.0
+b = 2.0
+c = a+b
+```
 
 ---
 
