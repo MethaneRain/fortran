@@ -72,13 +72,13 @@ And that's it!
 
 ## Fortran Program
 
-A Fortran program is made of a collection of <strong><em>main program</strong></em>, <strong><em>modules</strong></em>, and <strong><em>external subprograms/proceeddures</strong></em>
+A Fortran program is made of a collection of: <strong><em>main program</strong></em>, <strong><em>modules</strong></em>, and <strong><em>external subprograms/proceedures</strong></em>
 
 ---
 
 ## Fortran Keywords (reserved names; not for use as variable names)
 
-| Tables        | Are           | Cool  |
+| The non-I/O keywords  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
