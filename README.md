@@ -78,59 +78,142 @@ A Fortran program is made of a collection of: <strong><em>main program</strong><
 
 ## Fortran Keywords (reserved names; not for use as variable names)
 
-<center>The non-I/O keywords</center>
-
-| :-------: The non-I/O keywords :-----:|
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
 <html>
-
-<body>
-<table>
-  <tr>
-    <th colspan="3">The non-I/O keywords</th>
-  </tr>
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-  <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
-  </tr>
-</table>
-
-</body>
+<table style="text-align:center;" class="table table-bordered">
+<tbody><tr>
+<th style="text-align:center;" colspan="5">The non-I/O keywords</th>
+</tr>
+<tr>
+<td>allocatable</td>
+<td>allocate</td>
+<td>assign</td>
+<td>assignment</td>
+<td>block data</td>
+</tr>
+<tr>
+<td>call</td>
+<td>case</td>
+<td>character</td>
+<td>common</td>
+<td>complex</td>
+</tr>
+<tr>
+<td>contains</td>
+<td>continue</td>
+<td>cycle</td>
+<td>data</td>
+<td>deallocate</td>
+</tr>
+<tr>
+<td>default</td>
+<td>do</td>
+<td>double precision</td>
+<td>else</td>
+<td>else if</td>
+</tr>
+<tr>
+<td>elsewhere</td>
+<td>end block data</td>
+<td>end do</td>
+<td>end function</td>
+<td>end if</td>
+</tr>
+<tr>
+<td>end interface</td>
+<td>end module</td>
+<td>end program</td>
+<td>end select</td>
+<td>end subroutine</td>
+</tr>
+<tr>
+<td>end type</td>
+<td>end where</td>
+<td>entry</td>
+<td>equivalence</td>
+<td>exit</td>
+</tr>
+<tr>
+<td>external</td>
+<td>function</td>
+<td>go to</td>
+<td>if </td>
+<td>implicit</td>
+</tr>
+<tr>
+<td>in</td>
+<td>inout</td>
+<td>integer</td>
+<td>intent</td>
+<td>interface</td>
+</tr>
+<tr>
+<td>intrinsic</td>
+<td>kind</td>
+<td>len</td>
+<td>logical</td>
+<td>module</td>
+</tr>
+<tr>
+<td>namelist</td>
+<td>nullify</td>
+<td>only</td>
+<td>operator</td>
+<td>optional</td>
+</tr>
+<tr>
+<td>out</td>
+<td>parameter</td>
+<td>pause</td>
+<td>pointer</td>
+<td>private</td>
+</tr>
+<tr>
+<td>program</td>
+<td>public</td>
+<td>real</td>
+<td>recursive</td>
+<td>result</td>
+</tr>
+<tr>
+<td>return</td>
+<td>save</td>
+<td>select case</td>
+<td>stop</td>
+<td>subroutine</td>
+</tr>
+<tr>
+<td>target</td>
+<td>then</td>
+<td>type</td>
+<td>type()</td>
+<td>use</td>
+</tr>
+<tr>
+<td>Where</td>
+<td>While</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th style="text-align:center;" colspan="5">The I/O related keywords</th>
+</tr>
+<tr>
+<td>backspace</td>
+<td>close</td>
+<td>endfile</td>
+<td>format</td>
+<td>inquire</td>
+</tr>
+<tr>
+<td>open</td>
+<td>print</td>
+<td>read</td>
+<td>rewind</td>
+<td>Write</td>
+</tr>
+</tbody></table>
 </html>
 
 ---
