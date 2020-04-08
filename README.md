@@ -64,6 +64,20 @@ And that's it!
 
 ---
 
+## Basic Syntax (this will be covered more later)
+
+
+
+---
+
+## Fortran Keywords (reserved names; not for use as variable names)
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 ## Arrays
 
 To declare an array the attribute ```DIMENSION``` is used. Then calling the index to assign a value ```array_name(index_num)=value```.
