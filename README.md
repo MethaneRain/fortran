@@ -90,7 +90,9 @@ A Fortran program is made of a collection of: <strong><em>main program</strong><
 
 <body>
 <table>
-  <tr>The non-I/O keywords</tr>
+  <tr>
+    <th>The non-I/O keywords</th>
+  </tr>
   <tr>
     <th>Company</th>
     <th>Contact</th>
