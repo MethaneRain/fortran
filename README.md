@@ -80,7 +80,7 @@ A Fortran program is made of a collection of: <strong><em>main program</strong><
 
 <center>The non-I/O keywords</center>
 
-|               |               |       |
+|             he non-I/O keywords       |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
