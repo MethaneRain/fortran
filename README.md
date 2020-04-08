@@ -79,6 +79,7 @@ A Fortran program is made of a collection of: <strong><em>main program</strong><
 ## Fortran Keywords (reserved names; not for use as variable names)
 
 | The non-I/O keywords  |
+
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
