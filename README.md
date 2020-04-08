@@ -65,15 +65,7 @@ And that's it!
 
 ## Basic Syntax (this will be covered more throughout the exmaples)
 
-Every Fortran script must start with a program name and eventually end with the same name. However, the name you call the program <strong><em>does not</strong></em> have to be the name of the script.
 
-For example, in the script ```example.f90```:
-
-```fortran
-program test
-    [executable statements]
-end program test
-```
 
 ---
 
@@ -84,6 +76,17 @@ A Fortran program is made of a collection of: <strong><em>main program</strong><
 One of the first noticable quirks of Fortran is the way it handles variables that start with i, j, k, l, m, and n. By default Fortran will assign these variables to ```integers```, while any variable name that starts with any other letter will be assigned to ```real```, or float (covered in data types later).
 
 To override this inherit behavior, at the very beginning of the program, the statement ```implicit none``` must be added to the script.
+
+Every Fortran script must start with a program name and eventually end with the same name. However, the name you call the program <strong><em>does not</strong></em> have to be the name of the script.
+
+For example, in the script ```example.f90```:
+
+```fortran
+program test
+    impilcit none
+    [executable statements]
+end program test
+```
 
 
 ---
