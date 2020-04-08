@@ -112,33 +112,9 @@ Variable names (Identifiers) must follow certain rules:
     <li>Length must be less then 31 characters long</li>
 </ol>
 
-* One interesting note is that unlike in other programming languages like Python, Fortran variable names are <strong><em>case insensitive!</strong></em>. Thus, identifiers like ```name```, ```Name```, ```nAmE```, etc are all equivalent!
----
+* One interesting note is that unlike in other programming languages like Python, Fortran variable names are <strong><em>case insensitive!</strong></em> Thus, identifiers like ```name```, ```Name```, ```nAmE```, etc are all equivalent!
 
-## Fortran Program
-
-A Fortran program is made of a collection of: <strong><em>main program</strong></em>, <strong><em>modules</strong></em>, and <strong><em>external subprograms/proceedures</strong></em>
-
-One of the first noticable quirks of Fortran is the way it handles variables that start with i, j, k, l, m, and n. By default Fortran will assign these variables to ```integers```, while any variable name that starts with any other letter will be assigned to ```real```, or float (covered in data types later).
-
-To override this inherit behavior, at the very beginning of the program, the statement ```implicit none``` must be added to the script.
-
-Every Fortran script must start with a program name and eventually end with the same name. However, the name you call the program <strong><em>does not</strong></em> have to be the name of the script.
-
-For example, in the script ```example.f90```:
-
-```fortran
-program test
-    impilcit none
-    [executable statements]
-end program test
-```
-
-
----
-
-## Fortran Keywords (reserved names; not for use as variable names)
-
+Fortran Keywords (reserved names; not for use as variable names)
 
 <html>
 <table style="text-align:center;" class="table table-bordered">
@@ -276,6 +252,28 @@ end program test
 </tr>
 </tbody></table>
 </html>
+
+---
+
+## Fortran Program
+
+A Fortran program is made of a collection of: <strong><em>main program</strong></em>, <strong><em>modules</strong></em>, and <strong><em>external subprograms/proceedures</strong></em>
+
+One of the first noticable quirks of Fortran is the way it handles variables that start with i, j, k, l, m, and n. By default Fortran will assign these variables to ```integers```, while any variable name that starts with any other letter will be assigned to ```real```, or float (covered in data types later).
+
+To override this inherit behavior, at the very beginning of the program, the statement ```implicit none``` must be added to the script.
+
+Every Fortran script must start with a program name and eventually end with the same name. However, the name you call the program <strong><em>does not</strong></em> have to be the name of the script.
+
+For example, in the script ```example.f90```:
+
+```fortran
+program test
+    impilcit none
+    [executable statements]
+end program test
+```
+
 
 ---
 
