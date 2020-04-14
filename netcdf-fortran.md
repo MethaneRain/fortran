@@ -46,7 +46,8 @@ Now all I have to do to run my ```gfortran``` is reference these variables. This
 
 ```shell
 $ gfortran example.f90 -o example.out -I$IVAR -L$LVAR
----
+```
 
 Sweeeeet.
 
+---
