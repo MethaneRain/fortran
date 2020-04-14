@@ -42,7 +42,7 @@ export LVAR="/usr/local/Cellar/netcdf/4.7.3_2/lib -lnetcdff -lnetcdf"
 ```
 Then run a quick ```$ source ~/.bash_profile``` to complete the changes.
 
-Now all I have to do to run my ```gfortran``` is reference these variables. This saves me a lot of headach and memorization of the paths and flags!
+Now all I have to do to run my ```gfortran``` is reference these variables. This saves me a lot of headache and memorization of the paths and flags!
 
 ```shell
 $ gfortran example.f90 -o example.out -I$IVAR -L$LVAR
