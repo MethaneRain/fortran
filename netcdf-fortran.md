@@ -32,7 +32,21 @@ $ gfortran example.f90 -o example.out -I/usr/local/Cellar/netcdf/4.7.3_2/include
 ```
 Again, this is specific to my installation with ```gcc``` and the default locations of my ```netcdf``` libraries. There are many pitfalls in trying to get the Fortran script to compile when using ```netcdf``` so please look up how to do it on your machine.
 
+Edit: I was able to set some environment variables to shorten the above compiler arguments!
+
+In my ```.bash_profile``` file I added:
+
+```bash
+export IVAR=/usr/local/Cellar/netcdf/4.7.3_2/include
+export LVAR="/usr/local/Cellar/netcdf/4.7.3_2/lib -lnetcdff -lnetcdf"
+```
+Then run a quick ```$ source ~/.bash_profile``` to complete the changes.
+
+Now all I have to do to run my ```gfortran``` is reference these variables. This saves me a lot of headach and memorization of the paths and flags!
+
+```shell
+$ gfortran example.f90 -o example.out -I$IVAR -L$LVAR
 ---
 
-
+Sweeeeet.
 
