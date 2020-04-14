@@ -23,9 +23,9 @@ Since the ```netcdf``` package is installed in a specific location, the ```gfort
 
 MY specific setup needs ```-I``` and ```-L``` flags.
 
-* ```-I``` will include the neccessary netcdf-fortran package (I believe...)
+* ```-I``` will include the neccessary netcdf-fortran package
 
-* ```-L``` will grab...
+* ```-L``` will grab necessary libraries
 
 ```shell
 $ gfortran example.f90 -o example.out -I/usr/local/Cellar/netcdf/4.7.3_2/include -L/usr/local/Cellar/netcdf/4.7.3_2/lib -lnetcdff -lnetcdf
