@@ -32,6 +32,10 @@ Exploring the gcc PATH for the Homebrew gave: ```usr/local/Cellar/``` So all tha
 In ```.bash_profile``` I added:
 ```PATH=/usr/local/Cellar/gcc/9.3.0/bin:$PATH```
 
+Then reload the ```.bash_profile```
+
+```$source ~/.bash_profile```
+
 And now all is good and I can successfully compile my first Fortran script!
 
 ---
@@ -63,7 +67,7 @@ And that's it!
 
 ---
 
-## Basic Syntax (this will be covered more throughout the exmaples)
+## Basic Syntax (this will be covered more throughout the examples)
 
 Similiar to Java, all variables must be declared before being assigned with a value. In Fortran this is done by declaring the data type, then two colons, then the name of the variable and optional value.
 
