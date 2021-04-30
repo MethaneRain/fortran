@@ -14,7 +14,7 @@ First thing I realized was I was probably a little over my head on the installat
 
 I had gcc and gfortan installed a while back. However, when trying to compile a simple ```f90``` I immediately ran into a plethora of errors. 
 
-After tracking down what the errors where, I realized that I was using the Macports version of gcc and gfortran which was 5.5.0. So the next step was to get the most updated versions, and instead of using Macports, I went with Homebrew. 
+After tracking down what the errors were, I realized that I was using the Macports version of gcc and gfortran which was 5.5.0. So the next step was to get the most updated versions, and instead of using Macports, I went with Homebrew. 
 
 ```brew install gcc```
 
